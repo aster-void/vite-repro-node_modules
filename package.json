@@ -1,0 +1,13 @@
+{
+	"name": "vite-repro-node_modules",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@types/bun": "^1.2.9"
+	},
+	"peerDependencies": {
+		"typescript": "^5.8.3"
+	},
+	"workspaces": ["lib", "next-app", "vite-app"]
+}

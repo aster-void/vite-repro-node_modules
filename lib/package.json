@@ -1,0 +1,12 @@
+{
+	"name": "lib",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@types/bun": "^1.2.9"
+	},
+	"peerDependencies": {
+		"typescript": "^5.8.3"
+	}
+}
